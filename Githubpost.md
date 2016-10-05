@@ -32,3 +32,7 @@ Once you have done this, go back to Github Desktop.  At the top of the window th
 <img src="https://github.com/privatezero/Blog-Materials/blob/master/Github_Blog_Pic5.png">
 
 Obviously this just scratches the surface of how to use Github, but hopefully it can be a first step towards feeling more comfortable with this tool.  It's hacking time!
+
+
+<img src="https://github.com/privatezero/Blog-Materials/blob/master/hackerman.gif">
+
