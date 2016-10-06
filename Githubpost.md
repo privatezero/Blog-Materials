@@ -4,7 +4,7 @@ As the CUNY TV Archives make heavy use of Github in their workflows, in my resid
 
 Github desktop is a GUI (Graphical User Interface) that enables you to control and keep track of activity on your Github repositories.  I had actually experimented with it when I first started Github, but stopped because I found it confusing.  This is because I mistakenly believed that it was used as an editor rather than a means of tracking and controlling edits, an important distinction.  Well, enough talking - more rocking!  Let’s take a quick look at how to get started using Github desktop!
 
-The first thing you need is, not surprisingly, a [Github account](https://github.com/)!  In creating your account, there are many resources available online to help you pick your [hacker name](https://github.com/) (this step is VERY important). Next, install [Github Desktop](https://desktop.github.com/) and sign into it with your account.
+The first thing you need is, not surprisingly, a [Github account](https://github.com/)!  In creating your account, there are many resources available online to help you pick your [hacker name](https://github.com/) (this step is VERY important). Next, install [Github Desktop](https://desktop.github.com/) and sign in with your account.
 
 Once you are signed in, try creating a repository (a place where your projects will live) by going to the 'Repositories' tab and clicking 'New' in the upper left corner.  Now you can choose a name and description for your repository.  Make sure to check the box for 'Initialize this Repository with a README' as this is what we will be editing for this example.
 
