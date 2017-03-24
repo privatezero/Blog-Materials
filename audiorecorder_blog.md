@@ -13,7 +13,7 @@ I also wanted audiorecorder to support embedding BWF metadata and to bypass any 
 
 <img src="https://github.com/privatezero/Blog-Materials/raw/master/post_trim.png" width="400">
 
-To test the robustness of digitization quality I used the global analysis tools in the free trial version of Wavelab.  After some hiccups early in the process I have been pleased to find that my tool is performing reliably with no dropped samples! (Right now it is using a pretty large buffer, and one of my next steps will be to test how far I can roll that back).
+To test the robustness of digitization quality I used the global analysis tools in the free trial version of Wavelab.  After some hiccups early in the process I have been pleased to find that my tool is performing reliably with no dropped samples! (Right now it is using a pretty large buffer. This contributes to latency, especialy when only capturing one channel. One of my next steps will be to test how far I can roll that back while adding variable buffering depending on capture choices).
 
 Overall this has been a very fun process, and has accomplished the goal of ‘Professional Development’ in several ways.  I have been able to gain more experience both with scripting and with manipulating media streams.  Since the project is based on the AMIA Open Source Github site, I have been able to learn more about managing collaborative projects in an open-source context.  While initially intimidating, it has been exciting to work on a tool in public and benefit from constant feedback and support.  Plus, at the end of the day I am left with a free and open tool that fulfills my audio archiving needs!
 
