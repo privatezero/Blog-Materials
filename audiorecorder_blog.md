@@ -1,7 +1,7 @@
 # Professional Development Time Project: Audiorecorder
 ### Resident: Andrew Weaver, CUNY TV
 
-One of the incredible things about my NDSR residency is that it requires me to spend 20% of my time working on professional development.  This allows me to devote quite a bit of time to learning skills and working on things of interest that would otherwise be outside of the scope of my project.  (For people who are considering applying to future NDSR cohorts, I can’t emphasize enough how great it is to have the equivalent of one day a week to focus your attention on growth in areas of your choosing).
+One of the incredible things about my NDSR residency is that it requires me to spend 20% of my time working on professional development.  This allows me to devote quite a bit of time to learning skills and working on things of interest that would otherwise be outside the scope of my project.  (For people who are considering applying to future NDSR cohorts, I can’t emphasize enough how great it is to have the equivalent of one day a week to focus your attention on growth in areas of your choosing).
 
 A great way to spend some of this time was suggested to me through some personal audio projects I am working on.  I realized that, A: I wanted a tool that would allow me a range of signal monitoring capabilities while digitizing audio. B: I didn’t feel like paying for it. Solution: Try to build one myself!
 
