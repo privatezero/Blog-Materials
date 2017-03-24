@@ -1,4 +1,4 @@
-#Learning GitHub (or, if I can do it, you can too!)
+# Learning GitHub (or, if I can do it, you can too!)
 ### Resident: Andrew Weaver, CUNY TV
 
 As the CUNY TV Archives makes heavy use of GitHub for their workflows, in my residency I have had the opportunity to learn about more efficient ways to use this tool.  GitHub is a service that not only allows for the hosting of information, but for tracking of changes to that information and collaboration.  Before I started my residency I took advantage of GitHub to store and distribute scripts across different units in the Library.  This was great, however, the way in which I was using it (cut and pasting into the browser window and updating without any comments) made it impossible to take advantage of a lot of GitHub’s functionality, along with creating lots of headaches. Enter GitHub Desktop.
