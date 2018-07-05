@@ -26,10 +26,10 @@ The entire command is: `find '/My-Folder' -iname "*.wav" | while read wavefile ;
 
 `|` This is called a 'pipe' and is what is used in Bash to send the output of one command to another. In this case, we are sending the output of the `find` command into a loop. (This is the vertical bar symbol on the keyboard, not a capital I)
 
-`while read wavefile ; do` This is what starts the loop. What this does is 'read' each chunk of information that is coming from the pipe, in this case file paths, and then assign them to the variable 'wavefile.' The name 'wavefile' is an arbitrary name I chose for this example, and could be replaced with anything such as 'x' or 'myfile' as long as you are consistent in the following steps.
+`while read targetfile ; do` This is what starts the loop. What this does is 'read' each chunk of information that is coming from the pipe, in this case file paths, and then assign them to the variable 'targetfile.' The name 'targetfile' is an arbitrary name I chose for this example, and could be replaced with anything such as 'x' or 'myfile' as long as you are consistent in the following steps.
 
-`bwfmetaedit --MD5-Embed --reject-overwrite "$wavefile"` this is the actual preservation action that will be run on every file discovered with the `find` command. The first part `bwfmetaedit --MD5-Embed` is the BWF Metaedit command that embeds a checksum into target WAV files. The second part `"$wavefile"` makes the command run on the variable that was created in the previous step, with the result that BWF Metaedit will be run on all your located WAV files.
-
-
+`bwfmetaedit --MD5-Embed --reject-overwrite "$targetfile"` this is the actual preservation action that will be run on every file discovered with the `find` command. The first part `bwfmetaedit --MD5-Embed` is the BWF Metaedit command that embeds a checksum into target WAV files. The second part `"$targetfile"` makes the command run on the variable that was created in the previous step, with the result that BWF Metaedit will be run on all your located WAV files. It is important to not forget the quotation marks around this variable otherwise it won't work on any file names that have spaces in them. Since this variable represents file paths in the loop, it can be used in combination with any command you would want to run on your files!
 
 `; done` ends the loop once it is done reading the output of the `find` command.
+
+Since all that needs to be done to use this command in different contexts is to change the file extension in the initial `find` command and then change the preservation action that is run in the loop, I find that I am using similar constructions on an almost daily basis! By using find loops I am able to save a lot of time (and pain) when dealing with legacy data. I hope this example will help people to do the same! 
