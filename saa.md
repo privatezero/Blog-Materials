@@ -1,3 +1,3 @@
 # Introduction to a Bash Find Loop
 
-Recently a lot of my work has involved processing legacy digital materials in order to generate/expand their associated metadata. As much of this work is file format specific, I often find myself trying to hunt down all examples of a certain file type spread across thousands of directories.
+Recently a lot of my work has involved processing legacy digital materials in order to generate/expand their associated metadata. As much of this work is file format specific, I often find myself trying to hunt down all examples of a certain file type spread across thousands of directories representing many terabytes worth of data. To do this I have been using the Bash `find` command. This allows me to generate lists of file paths which then can be looped through to perform actions as needed such as file validation and metadata generation.
