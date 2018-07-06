@@ -24,7 +24,7 @@ The entire command is: `find '/My-Folder' -iname "*.wav" | while read wavefile ;
 
 `find '/My-Folder' -iname "*.wav"` is the find command demonstrated previously. This provides the file paths that will be used by the following commands.
 
-`|` This is called a 'pipe' and is what is used in Bash to send the output of one command to another. In this case, we are sending the output of the `find` command into a loop. (This is the vertical bar symbol on the keyboard, not a capital I)
+`|` This is called a 'pipe' and is what is used in Bash to send the output of one command to another. In this case, we are sending the output of the `find` command into a loop. (This is the vertical bar symbol on the keyboard, not a capital I).
 
 `while read targetfile ; do` This is what starts the loop. What this does is 'read' each chunk of information that is coming from the pipe, in this case file paths, and then assign them to the variable 'targetfile.' The name 'targetfile' is an arbitrary name I chose for this example, and could be replaced with anything such as 'x' or 'myfile' as long as you are consistent in the following steps.
 
