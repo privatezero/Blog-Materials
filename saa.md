@@ -10,7 +10,7 @@ For this example, I will be targeting `.wav` files, but this process would work 
 A basic example of the find command is `find "/My-Folder" -iname "*.wav"`. This command can be broken down as follows:
 
 * `find` initiates the command.
-* `~/My-Folder` is the target directory that will be searched. The search is recursive, meaning that any sub-folders will also be searched. If `.` is used instead of a specific directory, then the current directory will be searched. Note that if there are any spaces in your file name you will have to put it in quotes. A quick way to get the 
+* `~/My-Folder` is the target directory that will be searched. The search is recursive, meaning that any sub-folders will also be searched. If `.` is used instead of a specific directory, then the current directory will be searched. Note that if there are any spaces in your file name you will have to put it in quotes. A quick way to get the correct path to your target directory is just to drag it into the terminal window.
 * `-iname` tells the find command that you will be searching for case insensitive terms in the filenames. This helps account for people mixing case, such as `.tif` and `.TIF` over the years.
 * `"*.wav"` gives the find command the term that you will be searching for. In this instance, the `*` is a wildcard, so the results will include any files that end in `.wav`.
 
